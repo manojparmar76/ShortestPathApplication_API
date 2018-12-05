@@ -1,0 +1,19 @@
+Please follow the below steps to set-up the API in Postman.
+
+	Step 1: Please find Postman collection with name "Rest_API.postman_collection" in the same directory.
+
+	Step 2: Open Postman application.
+			Note: If not install then please go to the link and download the file based on OS: https://www.getpostman.com/apps
+
+	Step 3: Import the "Rest_API.postman_collection" file into the Postman. It will add the collection to your Postman with the name of "Graph".
+
+	Step 4: In the "Graph" collection you can find the different APIs which is supported by the Shortest Path Java Rest APIs.
+
+Please find the list of the created API which you will find in Postman collection.
+
+1. Create Graph
+2. Get all planet
+3. Get one planet
+4. Update planet details
+5. Find Shortest Path
+6. Delete graph

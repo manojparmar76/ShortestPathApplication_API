@@ -1,0 +1,15 @@
+I created the WAR packaging for the Application. This WAR contains APIs as well as Front-End code.
+
+Please follow the below steps to deploy the WAR file.
+
+	Step 1: Install any server like "Tomcat"
+
+	Step 2: Deploy the WAR file using the server.
+			Note: Please use the host as "localhost" and port as "8080" so that the URL will be like "http://localhost:8080" for deploying the application. Because we provide the API host URL as "http://localhost:8080/ShortestPathApplication/" in UI application.
+			
+	Step 3: After successful deployment. Please create the Graph using the API provided in the Postman collection.
+			Note: Please follow the file "3.Doc_API_Setup_Guide.txt" in the same directory for setting-up the Postman collection.
+			
+	Step 4: After creating the Graph using the API. Open the browser and open the link "http://localhost:8080/ShortestPathApplication".
+
+	Step 5: Application will be loaded into the Browser. Yep, now you can find the Shortest Path between the selected nodes.

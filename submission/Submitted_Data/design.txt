@@ -1,0 +1,64 @@
+I created the application for finding the Shortest Path between the given Nodes and I also calculated the Traffic for the Given Node of the Shortest Path.
+
+Assumptions: I assumed some of the assumptions in the Application.
+
+    1. The format of the uploaded file should be same as the available file in the word document (HR-Offsite AssignmentV3 0.docx) inside "Supporting Data" heading.
+    2. An application should be deployed on a host as "localhost" and port as "8080" Because we provided the Host URL in the UI application as "http://localhost:8080/ShortestPathApplication/". If we want to change the server host and port then we need to perform changes in UI application for pointing to the latest server.
+    3. The WAR file contains the APIs and UI code as a single unit. So that there is no need to deploy the API and UI application as separately.
+
+Code Desing: 
+
+    I created the application using the following the technologies.
+
+        1. Java 1.8
+        2. Spring Boot
+        3. Maven
+        4. MVC
+        5. Darby In-Memory DB
+        6. JPA
+        7. Angular 5
+    
+    I created the Rest API with help of Spring Boot and also created the UI application with latest Angular v5. I also created the classes as per organizational layout.
+    The flow diagram of the application you can find in the same directory with the name of the file "Application_Flow_Diagram.png"
+    In the application, we created different packages for separate types of classes and interfaces like.
+    
+        1. Controller classes
+        2. Service classes
+        3. Reqests classes
+        4. Response classes
+        5. Entity classes
+        6. Utility classes
+        7. Repository classes
+        8. Controller interfaces
+        9. Service interfaces
+
+    Taking care of following while developing the application
+
+        1. Stateless application.
+        2. OOPs
+        3. Reusability
+        4. Robustness
+        5. Readability
+        6. Commenting
+        7. Formatting        
+        
+Suggestion: In the future, we can extend our application
+
+    1. Currently, are uploading the excel file. But we can also support JSON body and other types of file like text, XML etc.
+    2. Currently in the application "source" node should be smaller than "destination" node. We can extend the functionality for any combination of source and destination.
+    
+Others: 
+    
+    Please refer below files for the references.
+
+        1. "API_Setup_Guide.txt": For setting up the API collection into the Postman.
+        2. "Application_deployment_Guide.txt": Guide to deploy the application on the server.
+        3. "Application_Flow_Diagram.png": Flow diagram of the application.
+        4. "Rest_API.postman_collection": Its a postman collection of the Rest API.
+        5. "ShortestPathApplication.war": Deployable WAR file of the application.
+    
+    Please find the source code of the application on given URL:
+    
+        1. Java Application: https://github.com/manojparmar76/ShortestPathApplication_API
+        2. Angular Application: https://github.com/manojparmar76/ShortestPathApplication_UI
+    
